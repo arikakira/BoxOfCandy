@@ -3,6 +3,10 @@ public class BoxOfCandy
     /** box contains at least one row and is initialized in the constructor. */
     private Candy[][] box;
 
+    public BoxOfCandy(Candy[][] b) {
+        box = b;
+    }
+
     /**
     * Moves one piece of candy in column col, if necessary and possible, so that the box
     * element in row 0 of column col contains a piece of candy, as described in part (a).
